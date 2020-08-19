@@ -35,7 +35,7 @@ window/size/test_width=720
 window/size/test_height=1280
 window/vsync/vsync_via_compositor=true
 window/handheld/orientation="portrait"
-window/stretch/mode="viewport"
+window/stretch/mode="2d"
 window/stretch/aspect="keep"
 
 [input]
@@ -49,6 +49,6 @@ jump={
 
 [rendering]
 
-quality/2d/gles2_use_nvidia_rect_flicker_workaround=true
 quality/2d/use_pixel_snap=true
 environment/default_environment="res://default_env.tres"
+quality/2d/gles2_use_nvidia_rect_flicker_workaround=true
